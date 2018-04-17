@@ -8,6 +8,8 @@
     android:layout_marginBottom="@dimen/horizontal_margin"
     android:clickable="true"
     android:focusable="true"
+    android:stateListAnimator="@anim/cardview_state_list_anim"
+    android:elevation="@dimen/cardview_elevation"
     android:foreground="?selectableItemBackground">
 
     <LinearLayout
